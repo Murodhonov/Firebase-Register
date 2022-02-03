@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "780120509717",
+    "project_id": "registerapp5",
+    "storage_bucket": "registerapp5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780120509717:android:e6cd080a7f767d80ba2d1c",
+        "android_client_info": {
+          "package_name": "uz.umarxon.firebaseregister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780120509717-qleqiv909ledvp1bqo96qoq14h1qqies.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCskYWy6TFx8YXYBNoBwBIjaEU0Soj39I4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780120509717-qleqiv909ledvp1bqo96qoq14h1qqies.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

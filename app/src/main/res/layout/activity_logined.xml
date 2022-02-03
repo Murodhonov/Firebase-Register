@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginedActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wave1" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/user" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siz ro'yhatdan o'tdingiz"
+        android:textColor="@color/blue"
+        android:textSize="25sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/alltv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/blue"
+            android:gravity="center" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_signout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Log OUT"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="10dp"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
